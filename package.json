@@ -1,13 +1,14 @@
 {
-  "name": "gatsby-starter-gcn",
-  "description": "A starter template to build amazing static websites with Gatsby, Contentful and Netlify",
+  "name": "axion",
+  "description": "Tech-economics news",
   "version": "2.0.4",
-  "repository": "https://github.com/ryanwiemer/gatsby-starter-gcn",
-  "author": "Ryan Wiemer <ryan@ryanwiemer.com>",
+  "repository": "https://github.com/taxiyoshida/gatsby-firebase-app",
+  "author": "taxiyoshida <yoshi@axion.zone>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "chalk": "^2.4.1",
     "contentful-import": "^7.4.3",
+    "firebase": "^5.8.2",
     "gatsby": "^2.0.73",
     "gatsby-image": "^2.0.25",
     "gatsby-plugin-canonical-urls": "^2.0.8",

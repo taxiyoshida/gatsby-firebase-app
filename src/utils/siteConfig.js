@@ -6,7 +6,7 @@ module.exports = {
     'Business news analysis on tech economy',
   siteUrl: 'https://axion.zone/', // Site domain. Do not include a trailing slash! If you wish to use a path prefix you can read more about that here: https://www.gatsbyjs.org/docs/path-prefix/
   postsPerHomePage: 7, // Number of posts shown on the 1st page of of the index.js template (home page)
-  postsPerPage: 8, // Number of posts shown on paginated pages
+  postsPerPage: 9, // Number of posts shown on paginated pages
   author: 'Takushi Yoshida', // Author for RSS author segment and SEO schema
   authorUrl: 'https://taxiyoshida.net/', // URL used for author and publisher schema, can be a social profile or other personal site
   userTwitter: '@taxiyoshida', // Change for Twitter Cards
