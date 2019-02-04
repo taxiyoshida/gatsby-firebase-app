@@ -1,18 +1,19 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
-import '../logos/logo-512.png'
+import logo from '../images/axion_logo.png'
 
 const Header = styled.header`
   background: ${props => props.theme.colors.base};
   width: 100%;
-  padding: 1.5em 0;
+  padding: 1.0em 0;
 `
 const Nav = styled.nav`
   width: 100%;
   max-width: ${props => props.theme.sizes.maxWidth};
   margin: 0 auto;
-  padding: 0 1.5em;
+  padding: 0 1.0em;
+  
 
   ul {
     display: flex;
@@ -38,7 +39,7 @@ const Nav = styled.nav`
     &:hover {
       color: white;
     }
-  }
+  } 
 `
 
 const activeLinkStyle = {
@@ -49,26 +50,25 @@ const Menu = () => {
   return (
     <Header>
       <Nav>
-        <ul>
-          <li>
-            <Link to="/" activeStyle={activeLinkStyle}>
-              Home
-            </Link>
-          </li>
-          <div className="container">
-          <img  src="../logos/logo-512.png" align="middle" />
-          </div>
-          <li>
-            <Link to="/about/" activeStyle={activeLinkStyle}>
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to="/contact/" activeStyle={activeLinkStyle}>
-              Contact
-            </Link>
-          </li>
-        </ul>
+          <ul>
+            <li>
+              <Link to="/" >
+                <img src={logo}
+                    style={{width: 100, height: 42}}
+                 />
+              </Link>
+            </li>             
+            <li>
+              <Link to="/about/" activeStyle={activeLinkStyle}>
+                About
+              </Link>
+            </li>
+            <li>
+              <Link to="/contact/" activeStyle={activeLinkStyle}>
+                Contact
+              </Link>
+            </li>
+          </ul>
       </Nav>
     </Header>
   )
