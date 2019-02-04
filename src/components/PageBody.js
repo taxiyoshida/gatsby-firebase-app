@@ -10,7 +10,7 @@ const Body = styled.div`
   h2,
   h3 {
     font-weight: 600;
-    line-height: 1.25;
+    line-height: 1.75;
     margin: 0 0 1rem 0;
     text-transform: capitalize;
   }
@@ -57,7 +57,7 @@ const Body = styled.div`
     li {
       list-style: disc;
       list-style-position: inside;
-      line-height: 1.25;
+      line-height: 1.75;
       &:last-child {
         margin: 0;
       }
@@ -68,7 +68,7 @@ const Body = styled.div`
     li {
       list-style: decimal;
       list-style-position: inside;
-      line-height: 1.25;
+      line-height: 1.75;
       &:last-child {
         margin: 0;
       }
@@ -84,7 +84,10 @@ const Body = styled.div`
   blockquote {
     font-style: italic;
     border-left: 4px solid ${props => props.theme.colors.secondary};
-    padding: 0 0 0 0.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    padding-left: 15px;
   }
 
   pre {

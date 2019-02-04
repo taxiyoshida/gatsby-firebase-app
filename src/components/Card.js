@@ -49,11 +49,6 @@ const Date = styled.h3`
   color: gray;
 `
 
-const Excerpt = styled.p`
-  margin: 0 1rem 1rem 1rem;
-  line-height: 1.6;
-`
-
 const Card = ({ slug, heroImage, title, publishDate, body, ...props }) => {
   return (
     <Post featured={props.featured}>
@@ -61,11 +56,6 @@ const Card = ({ slug, heroImage, title, publishDate, body, ...props }) => {
         <Img fluid={heroImage.fluid} backgroundColor={'#eeeeee'} />
         <Title>{title}</Title>
         <Date>{publishDate}</Date>
-        <Excerpt
-          dangerouslySetInnerHTML={{
-            __html: body.childMarkdownRemark.excerpt,
-          }}
-        />
       </Link>
     </Post>
   )
