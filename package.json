@@ -14,7 +14,7 @@
     "gatsby-plugin-canonical-urls": "^2.0.8",
     "gatsby-plugin-catch-links": "^2.0.9",
     "gatsby-plugin-feed": "^2.0.11",
-    "gatsby-plugin-google-analytics": "^2.0.8",
+    "gatsby-plugin-google-analytics": "^2.0.13",
     "gatsby-plugin-manifest": "^2.0.12",
     "gatsby-plugin-netlify": "^2.0.6",
     "gatsby-plugin-nprogress": "^2.0.7",
@@ -35,6 +35,7 @@
     "prismjs": "^1.15.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-ga": "^2.5.7",
     "react-helmet": "^5.2.0",
     "styled-components": "^4.1.3"
   },
