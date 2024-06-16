@@ -2,7 +2,7 @@ import * as firebase from 'firebase'
 import ReactGA from 'react-ga';
 
 var config = {
-  apiKey: "AIzaSyBmJpMXzroOd8gTaosrToO_OjwfMC-fC_s",
+  apiKey: "**********************",
   authDomain: "axion-project.firebaseapp.com",
   databaseURL: "https://axion-project.firebaseio.com",
   projectId: "axion-project",
